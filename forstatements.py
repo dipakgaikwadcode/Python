@@ -1,4 +1,4 @@
-str1 = "Python"
+# str1 = "Python"
 
 # for i in str1:
 #     print(i)
@@ -30,11 +30,17 @@ str1 = "Python"
  #to print sum of numbers present inside list
 
 
-list1 = eval(input("Enter list:"))
+# list1 = eval(input("Enter list:"))
 
-total_sum = 0
+# total_sum = 0
 
-for num in list1:
- total_sum+=num
+# for num in list1:
+#  total_sum+=num
 
- print(total_sum)
+#  print(total_sum)
+
+
+
+name = input("Enter your name:")
+if name =="dipak":print("hello dipak")
+print("How are you")

@@ -107,6 +107,20 @@
 
 
 
-marks = {10,20,30,40,40,50}
-print(marks)
-print(type(marks))
+# marks = {10,20,30,40,40,50}
+# print(marks)
+# print(type(marks))
+
+
+
+# marks = 20
+# age = 60
+# age = 87
+
+
+a = 10
+b = float(a)
+
+print(b)        # 10.0
+print(type(b))  # float
+

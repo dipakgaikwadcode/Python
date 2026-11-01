@@ -140,7 +140,7 @@ while i<5:
 
 #Q5 Reverse the list using a for loop without using reverse() or slicing ([::-1]).
 
- numbers = [10, 20, 30, 40, 50]
+numbers = [10, 20, 30, 40, 50]
 
 # reversed_list=[]
 
@@ -152,5 +152,43 @@ while i<5:
 # print(reversed_list)
 
 
-for i in reversed(numbers):
-    print(i,end="")
+# for i in reversed(numbers):
+#     print(i,end="")
+
+
+
+
+
+# s = "dipakgaikwad"
+
+# for i in s:
+#     print(i)
+
+
+# Q1. Sum of Even Numbers
+# Write a program to find the sum of all even numbers between 1 and 50.
+
+
+# summ =0
+
+# for i in range(1,51):
+
+#     if i % 2 ==0:
+#         summ+=i
+
+
+# print("Sum of even numbers:",summ)
+
+
+# Q2. Multiplication Table
+# Accept a number from the user and print its multiplication table from 1 to 10.
+
+
+n = int(input("Enter your any number: "))
+
+for i in range(1,11):
+
+ result = n * i
+
+ print(f"{n} X {i} = {result}")
+

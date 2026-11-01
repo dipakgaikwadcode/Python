@@ -1,13 +1,13 @@
 
 #tuple-immutable
 #6.tuple packing and unpacking
-a,b,c=10,20,30
-t1=a,b,c  #packing
-print(t1)
-print(type(t1))
+# a,b,c=10,20,30
+# t1=a,b,c  #packing
+# print(t1)
+# print(type(t1))
 
-x,y,z=t1  #unpacking
-print(x,y,z,sep=",")
+# x,y,z=t1  #unpacking
+# print(x,y,z,sep=",")
 
 
 

@@ -1,12 +1,12 @@
-state=input("Enter state:")
-if state=="Maharashtra":
-    print("Capital:Mumbai")
-elif state=="Gujarat":
-    print("Capital:Gandhinagar")
-elif state=="Uttar pradesh":
-    print("Capital:Lucknow")
-else:
-    print("Invalid state")
+# state=input("Enter state:")
+# if state=="Maharashtra":
+#     print("Capital:Mumbai")
+# elif state=="Gujarat":
+#     print("Capital:Gandhinagar")
+# elif state=="Uttar pradesh":
+#     print("Capital:Lucknow")
+# else:
+#     print("Invalid state")
 
 #Accept marks of 5 subjects and print percentage and class obtained
 """
@@ -16,5 +16,6 @@ between 50 and 60       Second
 between 40 and 50       Pass
 less than 40            Fail
 """
+
 
 

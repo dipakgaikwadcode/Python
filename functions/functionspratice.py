@@ -91,3 +91,25 @@
 
 
 
+#return multiple values from a function
+
+# def sum_sub(a,b):
+#     sum = a+b
+#     sub = a-b
+#     return sum , sub
+
+# x,y=sum_sub(100,50)
+
+# print("The sum is: ",x)
+# print("the subtraction is:",y)
+
+
+def fact(num):
+    result = 1
+    while num <= 1:
+        result = result*num
+        num-=1
+        return result
+
+    for i in range(1,5):
+        print("the factoorial of :",fact(i))

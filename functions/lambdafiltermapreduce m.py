@@ -1,12 +1,12 @@
-#reduce()
-from functools import *
-l1=[10,20,30,40]
-res=reduce(lambda x,y:x+y,l1)
-print("res:",res)
+# #reduce()
+# from functools import *
+# l1=[10,20,30,40]
+# res=reduce(lambda x,y:x+y,l1)
+# print("res:",res)
 
-#product of all numbers from 1 to 10
-res=reduce(lambda x,y:x*y,range(1,11))
-print("res:",res)
+# #product of all numbers from 1 to 10
+# res=reduce(lambda x,y:x*y,range(1,11))
+# print("res:",res)
 
 
 

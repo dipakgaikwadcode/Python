@@ -50,10 +50,10 @@
 
 #product of all numbers form 1 to 10
 
-from functools import *
-res = reduce(lambda x,y:x*y, range(1,11))
+# from functools import *
+# res = reduce(lambda x,y:x*y, range(1,11))
 
-print(res)
+# print(res)
 
 
 
@@ -131,3 +131,18 @@ print(res)
 # list_2 =[10,40,'a']
 
 # list_3 =list(filter(lambda x: x not in list_2 , list_1))
+
+
+
+
+def number(n):
+
+    if n == 6:
+        return
+
+    print(n)
+
+    number(n+1)
+
+
+number(1)

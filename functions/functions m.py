@@ -68,3 +68,29 @@ print("Welcome to functions in Python")
 
 
 
+#writee to print the length of a list
+
+
+# def countl():
+
+li = ["dipak", "shubham", "ram"]
+
+#  count = 0
+
+#  for i in li:
+#     count+=1
+
+#  return count
+
+
+# print("list value is ",countl())
+
+
+
+#write to print the element of a list in a single line()
+
+
+
+
+
+ 

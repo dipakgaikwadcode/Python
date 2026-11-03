@@ -1,56 +1,46 @@
-
 #d.alias
-
-from file1 import substraction as s1, radius as r
-
-res = s1(20,30)
-print("res",res)
-print("radius",r)
-
-
-
-
-
-
-
-
-
-
-#c. from ... import specific properties
-
-# from file1 import x,add
-# print("x" , x)
-# print()
-
-
-
-
-
-
-
-# #b.from...
-
-# from file1 import*
-
-# print("X= ",x)
-# print("Y= ",y)
-
-# res=add(10,20)
-
+# from File1 import substraction as s1,radius as r
+# #print("x=",x)
+# res=s1(30,20)
 # print("res:",res)
+# print("radius:",r)
 
 
+from File1 import x as a , y as b
+
+print("x :",a)
+print("Y :",b)
+
+# import File1 as f
+# print("x=",f.x)
+# res=f.substraction(40,20)
+# print(res)
+
+#c.from ..import specific properties
+
+#from File1 import x,add
+# print("x=",x)
+# #print("y=",y)#error
+# res=add(10,20)
+# print("res=",res)
+
+#b.from..
+# from File1 import *
+# print("x=",x)
+# print("y=",y)
+# res=add(40,50)
+# print("res=",res)
+
+# from File1 import *
+# print("x: ",x)
+# print("Y: ",y)
 
 
+# # #a.
+# import File1
 
+# print("x=",File1.x)
+# print("y=",File1.y)
 
-
-# #A.
-# import file1
-
-# print("X= ",file1.x)
-# print("Y= ",file1.y)
-
-# res=file1.add(10,20)
-
+# res=File1.add(1,2)
 # print("res:",res)

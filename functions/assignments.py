@@ -1,44 +1,101 @@
-
-
-#write a program to check wheather the given numbers is even or odd?
-
-# n = int(input("Enter the any number: "))
-
-# if n % 2== 0:
-#     print("even")
-# else:
-#     print("odd")
-
-
-#write a program to check wheather the given number is in bet 1 and 100
-
-# a = int(input("Enter the any number: "))
-
-# if a <= 100 and a>=1:
-#     print("yes number is fulfilling conditon")
-# else:
-#     print("nooo number is fulfilling conditon")
-
-
-#write a program to find smallest of given 3 numbers
-
-# a = 199
-# b = 79
-# c = 909
-
-# if a <= b and a<=c:
-#     print("a is smallest")
-# elif b <= a and b<=c:
-#     print("b is smallest")
-# else:
-#     print("c is smallest")
-
-
-# # write a function to print hello
-
-# def wish():
-#     print("hello good morning ")
+#syntax of function
+def wish():
+    print("hello")
 
 # wish()
 
+#wrie a function to take a number as input value and print square
+
+# n = int(input("Enter any whole number: "))
+
+def sqaure1(number):
+    print("square of number :",number*number)
+
+
+# c = sqaure1(n)
+
+#write a func to accept the 2 numbers as input and return sum
+
+
+
+
+def summ(a,b):
+    return a+b
+
+# d= summ(12,12)
+
+# print("sum of 2 numbers :",d)
+
+#wp func to given value is even or odd
+
+# p = int(input("Enter any whole number: "))
+
+def checkfuc(num):
+
+  if num % 2 == 0:
+      print("Even number:",num)
+  else:
+      print("odd number:",num)
+
+# checkfuc(p)
+
+    
+#wp func for finding a factorial 
+
+def findfacto(num):
+
+    factorial = 1
+
+    
+    while num >= 1:
+           factorial = factorial * num
+           num =num-1
+
+    return factorial
+
+
+# s = findfacto(12)
+
+# print("Factorial og num:",s)
+
+
+# return multiple values using func
+
+
+def sumsub(x,y):
+
+ sum = x+y
+
+ sub = x-y 
+
+ return sum, sub
+
+# x,y = sumsub(11,11)
+
+# print("addition og num: ",x)
+
+# print("subtraction og num: ",y)
+
+
+
+
+        
+
+
+
+
+
+# p = int(input("Enter any of number: "))
+
+# if p < 0:
+#     print("not valid number:")
+# else:
+#      factorial = 1
+#      i = p
+
+#      while i >1:
+#          factorial = factorial * i
+#          i-=1
+
+#      print("Factorial of num",factorial)
 

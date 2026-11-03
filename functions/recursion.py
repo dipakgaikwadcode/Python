@@ -133,16 +133,12 @@
 # list_3 =list(filter(lambda x: x not in list_2 , list_1))
 
 
-
-
 def number(n):
 
     if n == 6:
-        return
-
+        return 
     print(n)
 
     number(n+1)
-
 
 number(1)

@@ -14,6 +14,7 @@
 # print(f"factorial of {n} is {res}")
 
 
+
 #wap for recursion of sum of  first 5 natural numbers 
   
 # def countsum(x):
@@ -130,15 +131,18 @@
 # list_1 =[5,10,20,30,40,'a','x',50]
 # list_2 =[10,40,'a']
 
-# list_3 =list(filter(lambda x: x not in list_2 , list_1))
+# # list_3 =list(filter(lambda x: x not in list_2 , list_1))
 
 
-def number(n):
+# def number(n):
 
-    if n == 6:
-        return 
-    print(n)
+#     if n == 6:
+#         return 
+#     print(n)
 
-    number(n+1)
+#     number(n+1)
 
-number(1)
+# number(1)
+
+
+

@@ -76,10 +76,31 @@ def sumsub(x,y):
 
 # print("subtraction og num: ",y)
 
+#-------recurstion----------
+
+# Write a recursive function named count() that:
+# 1. Accepts a number as an argument.
+# 2. Prints numbers from 10 to 1.
+# 3. Uses recursion (not loops).
+# 4. Stops when the number reaches 0
+
+
+# def count(num):
+
+#     count1 = 1
+
+#     while num >=1:
+#          print(num)
+#          num-=1
+
+#          return count1
+
+# c = count(12)
+# print(c)
 
 
 
-        
+
 
 
 
@@ -98,4 +119,5 @@ def sumsub(x,y):
 #          i-=1
 
 #      print("Factorial of num",factorial)
+
 

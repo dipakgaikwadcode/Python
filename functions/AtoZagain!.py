@@ -74,3 +74,56 @@ n = 45
 #     print("Fail")
 
 
+
+# name = input("Enter your Name: ")
+# if name == "Harry":
+#     print("Hello harry Good night")
+#     print("How are you!!!!")
+
+
+# write a program to check wheather the given number is in bet 1 and 100
+
+# num = int(input("Enter any number: "))
+
+# if num >=1 and num <= 100:
+#     print("True number between 1 to 100")
+# else:
+#     print("False conditionn")
+
+
+
+n = int(input("Enter a number: "))
+
+if n > 0:
+    print("Positive")
+
+if n < 0:
+    print("Negative")
+
+if n == 0:
+    print("Zero")
+
+if n % 2 == 0:
+    print("Even")
+
+if n % 2 != 0:
+    print("Odd")
+
+# Q2. Student Grade System
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade A+")
+
+if marks >= 75 and marks < 90:
+    print("Grade A")
+
+if marks >= 60 and marks < 75:
+    print("Grade B")
+
+if marks >= 35 and marks < 60:
+    print("Grade C")
+
+if marks < 35:
+    print("Fail")

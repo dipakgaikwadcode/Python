@@ -92,38 +92,160 @@ n = 45
 
 
 
-n = int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
 
-if n > 0:
-    print("Positive")
+# if n > 0:
+#     print("Positive")
 
-if n < 0:
-    print("Negative")
+# if n < 0:
+#     print("Negative")
 
-if n == 0:
-    print("Zero")
+# if n == 0:
+#     print("Zero")
 
-if n % 2 == 0:
-    print("Even")
+# if n % 2 == 0:
+#     print("Even")
 
-if n % 2 != 0:
-    print("Odd")
+# if n % 2 != 0:
+#     print("Odd")
 
-# Q2. Student Grade System
+# # Q2. Student Grade System
 
-marks = int(input("Enter your marks: "))
+# marks = int(input("Enter your marks: "))
 
-if marks >= 90:
-    print("Grade A+")
+# if marks >= 90:
+#     print("Grade A+")
 
-if marks >= 75 and marks < 90:
-    print("Grade A")
+# if marks >= 75 and marks < 90:
+#     print("Grade A")
 
-if marks >= 60 and marks < 75:
-    print("Grade B")
+# if marks >= 60 and marks < 75:
+#     print("Grade B")
 
-if marks >= 35 and marks < 60:
-    print("Grade C")
+# if marks >= 35 and marks < 60:
+#     print("Grade C")
 
-if marks < 35:
-    print("Fail")
+# if marks < 35:
+#     print("Fail")
+
+
+
+
+# ----------Iterative statements --
+
+# for loop
+
+# s = "dipak"
+
+# for x in s:
+#     print(x)
+
+# s = input("Enter any word: ")
+
+# i = 0
+
+# for x in s:
+#     print("the chaarter of @",i,"index is:",x)
+#     i+=1
+
+
+# to dispaly the 0 to 10 numbers 
+
+# for x in range(0,11):
+#     print(x)
+
+
+2# to display the 0 t0 20 numbers
+
+# for x in range(0,21):
+#     print(x)
+
+#  to display the sum of even  numbers in list
+
+# s = eval(input("Enter the list: "))
+
+# sum = 0
+
+# for x in s:
+#     if x % 2 == 0:
+#         sum+=x
+# else:
+#     print("sum of even numbers",sum)
+
+
+
+# Q1. Find the sum of all odd numbers from 1 to 100.
+
+
+# sum = 0
+# for x in range(1,101):
+#     if x % 2 != 0:
+#      sum+=x
+       
+
+# print("sum of odd numbers 0 to 100:",sum)
+
+
+# Q2. Given a list, count how many numbers are positive, negative, and zero.
+
+# l1 = [10,20,-2,0,0,30,50,89,-68]
+
+# positivenum = 0
+# negativenum = 0
+# zero = 0
+
+# for x in l1:
+#    if x >= 0:
+#       positivenum+=1
+#    if x < 0:
+#          negativenum+=1
+#    if x == 0:
+#       zero+=1
+   
+
+# print("positive numbers:",positivenum)
+# print("negative numbers:",negativenum)
+# print("zero:",zero)
+# Q3. Find the largest and second-largest number in a list without using max() or sort().
+
+
+
+
+
+
+# Q4. Print the multiplication table of a number from 1 to 20.
+
+# Q5. Given a list, create a new list containing only the numbers that appear more than once.
+# l1 = [12,10,10,22,33,12,69]
+
+# counts = {}
+
+# for x in l1:
+#    if x in counts:
+#       counts[x] +=1
+#    else:
+#       counts[x] = 1
+      
+
+
+# Q6. Given a list, find the sum of digits of every number and print the total sum of all digits.
+
+l3 = [10,20,30,40,50,80]
+
+sum1 = 0
+
+for i in l3:
+   sum1+=i
+
+print("total sum of l3",sum1)
+
+
+
+
+# Q7. Check whether each number in a list is a prime number and display the prime numbers.
+
+
+
+# Q8. Given a list, remove duplicate elements without using set().
+
+# Q9. Find the second-smallest unique number in a list without using sort() or min().

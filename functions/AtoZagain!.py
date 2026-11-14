@@ -230,14 +230,14 @@ n = 45
 
 # Q6. Given a list, find the sum of digits of every number and print the total sum of all digits.
 
-l3 = [10,20,30,40,50,80]
+# l3 = [10,20,30,40,50,80]
 
-sum1 = 0
+# sum1 = 0
 
-for i in l3:
-   sum1+=i
+# for i in l3:
+#    sum1+=i
 
-print("total sum of l3",sum1)
+# print("total sum of l3",sum1)
 
 
 
@@ -249,3 +249,116 @@ print("total sum of l3",sum1)
 # Q8. Given a list, remove duplicate elements without using set().
 
 # Q9. Find the second-smallest unique number in a list without using sort() or min().
+
+
+# Transfer statement---
+
+# while True:
+#     n = int(input("Enter jst odd numbers: "))
+#     if n % 2==0:
+#         break
+#     print("Bingo")
+
+# print("Thank you")
+
+
+# for i in range(2,11):
+#     if i == 8:
+#         continue
+#     print(i)
+# print("Thank you")
+
+
+# for i in range(10):
+#     if (i == 7):
+       
+#         print(i)
+#         break
+
+# print("ok its enough..plz break")
+
+
+# for i in range(1,20):
+#     print(i)
+#     if (i == 12):
+#         print("yup! we found it !")
+#         break
+
+
+# l1 = [10, 20, 30, 40, 50, 60]
+
+# for i in l1:
+#     print(i)
+#     if(i== 40):
+#             print("yup! we found it !")
+#             break
+        
+
+# Q1.Print each number.
+# Stop the loop when you find the first number divisible by both 3 and 5.
+# Print "First matching number found!".
+
+# l1 = [12, 7, 18, 25, 30, 9, 40]
+
+# for i in l1:
+#     print(i)
+#     if (i % 5 == 0 and i % 3 == 0):
+#         print("First matching number found!")
+#         break
+        
+
+# Q2.Check each number in the list.
+# Print only the numbers that are not divisible by 3.
+# Stop the loop when you encounter the first number divisible by both 5 and 7.
+# Print "Loop terminated!" when the loop stops.
+
+# numbers = [15, 22, 9, 18, 35, 42, 27, 50, 60]
+
+# for i in numbers:
+#     if (i % 3 != 0):
+#         print(i)
+#     if (i % 5 == 0 and i % 7 == 0):
+#      print("Loop terminated!")
+#      break 
+
+
+# ------continue
+
+
+# Write a Python program to print numbers from 
+# 1 to 20, but skip all numbers divisible by 3 using continue.
+# for i in range(1, 21):
+#     if (i % 3 == 0):
+#         continue
+#     print(i)
+
+
+# Q2.Skip numbers divisible by both 2 and 3.
+# Skip numbers less than 10.
+# Print all remaining numbers.
+# Use continue.
+
+# numbers = [12, 5, 18, 7, 24, 9, 30, 11, 42, 15]
+
+
+
+# for num in numbers:
+#     if (num % 2 == 0 and num % 3 == 0) or (num < 10):
+#         continue
+#     print(num)
+
+
+
+# Q3.Skip all numbers divisible by 5.
+# Add the remaining numbers.
+# Print the final sum.
+# Use for and continue.
+
+numbers = [10, 15, 20, 25, 30, 35, 40, 45]
+
+sum1 = 0
+for i in numbers:
+    if (i % 5 == 0):
+     continue
+    sum+=i
+print("total sum of numbers list",sum1)

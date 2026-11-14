@@ -354,11 +354,11 @@ n = 45
 # Print the final sum.
 # Use for and continue.
 
-numbers = [10, 15, 20, 25, 30, 35, 40, 45]
+# numbers = [10, 15, 20, 25, 30, 35, 40, 45]
 
-sum1 = 0
-for i in numbers:
-    if (i % 5 == 0):
-     continue
-    sum+=i
-print("total sum of numbers list",sum1)
+# sum1 = 0
+# for i in numbers:
+#     if (i % 5 == 0):
+#      continue
+#     sum+=i
+# print("total sum of numbers list",sum1)

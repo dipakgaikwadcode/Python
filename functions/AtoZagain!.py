@@ -362,3 +362,64 @@ n = 45
 #      continue
 #     sum+=i
 # print("total sum of numbers list",sum1)
+
+
+
+# functionn --
+
+
+# def addition(a,b):
+#  s = a + b 
+#  return s
+
+
+
+# s=addition(23,45)
+
+# print(s)
+
+
+# write a func ti check given number is even or odd
+
+# def checknum(x):
+#     if (x % 2 == 0):
+#         print("number is even",x)
+#     else:
+#         print("number is odd",x)
+
+
+
+# checknum(12)
+
+# 2 write a func to find factorial of given numbers ?
+
+
+# def fac(num):
+#     if num < 1:
+#         print("not a number")
+#     else:
+#         factorial = 1
+#         i = num
+#     while i>1:
+
+#         factorial = factorial * i
+#         i-=1
+
+#     print(f"factorial of {i} is {factorial}")
+
+
+
+# fac(12)
+
+
+# Write a function numbers() that prints all numbers from 1 to 10 using a for loop.
+
+def numbers():
+    for i in range(1,21):
+        print(i)
+
+
+# Write a function analyze(num) that:
+# - Checks whether the number is even or odd.
+# - Calculates the sum of its digits.
+# - Counts the total number of digits.

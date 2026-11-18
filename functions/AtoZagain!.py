@@ -423,3 +423,64 @@ def numbers():
 # - Checks whether the number is even or odd.
 # - Calculates the sum of its digits.
 # - Counts the total number of digits.
+
+
+
+
+# lambda functions-------------------
+
+
+# Write a lambda function to add two numbers
+
+s = lambda a,b :a+b
+# print(s(10,20))
+
+
+# Write a lambda function to find the square of a number.
+
+a = lambda a: a*a
+
+# print(a(10))
+# Write a lambda function to multiply two numbers.
+
+# Write a lambda function to check whether a number is even or odd. 
+# Return "Even" or "Odd".
+
+b = lambda n: "even" if n % 2 == 0 else "odd"
+# print(b(10))
+
+
+# Write a lambda function to find the largest of two numbers.
+
+check = lambda n,m: f"{n} is Largest" if n > m else f"{m} is Largest"
+
+# print(check(10,20))
+
+
+# Write a lambda function that takes three numbers a, b, c and returns:
+# - "a is Largest" if a is largest
+# - "b is Largest" if b is largest
+# - "c is Largest" if c is largest
+# - "All are Equal" if all three numbers are equal
+
+
+def func(a,b,c):
+    if a > b and a > c:
+        return f"{a}is Largest"
+    elif b > a and b > c:
+        return f"{b} is Largest"
+    elif c > b and c > a:
+        return f"{c} is Largest"
+
+    else:
+        return "some are equal"
+
+
+print(func(10,20,30))
+
+
+
+check1 = lambda a,b,c: "{a}is Largest" if a > b and a > c else( f"{b} is Largest" if b > a and b > c else f"{c} is Largest" )
+
+print(check1(10,20,30))
+        

@@ -239,3 +239,25 @@ class Studentname:
 # s2 = Budy()
 # print("s2= ",s2)
 # s2.accept()
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Student:
+    def __init__(self,name,marks):
+        self.name = name
+        self.marks = marks
+        print("additing new student in database")
+
+
+s1=Student("dipak",97)
+print(s1.name,s1.marks)

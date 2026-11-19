@@ -94,3 +94,112 @@ The last constructor will be activated and all above constructor will be deactiv
 #     """ This is my first class"""
 #     a=10
 #     print(a)
+
+
+
+
+
+
+# class Student:
+#     collage_name = "ABC collage"
+    
+
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
+#         print("additing new student in database..")
+
+
+# s1 = Student("karan",76)
+# print(s1.name)
+# print(s1.collage_name)
+
+
+# print("=================")
+
+# s2 = Student("",76)
+# print(s2.name)
+# print(s2.collage_name)
+
+
+
+
+# Q4. Rectangle
+
+# Create a Rectangle class.
+# - Create a method area(self, length, width).
+# - Calculate the area.
+# - Print the result.
+
+
+# class Rectangle :
+#     def __init__(self,length,width):
+#          self.lenght = length
+#          self.width = width
+#          result = self.lenght * self.width  
+#          print(f"the area of the rectangle is : {result}")
+        
+        
+# s = Rectangle(23,43)
+
+# Q5. Bank Account
+
+# Create a Bank class.
+# - Create a method deposit(self, amount).
+# - Create a method withdraw(self, amount).
+# - Create a method balance(self).
+# - Maintain the balance using self.
+
+# class Bank:
+
+#     def __init__(self,amount):
+#       self.amount = amount
+    
+    
+#     def deposit(self,amount):
+#      self.amount+=amount
+
+#     def withdraw(self, amount):
+#       self.amount-=amount
+      
+#     def balance(self):
+#         print("current amount:",self.amount)
+
+
+# z1 = Bank(24500)
+
+# z1.deposit(1000)
+# z1.withdraw(5500)
+# z1.balance()
+
+
+# Q6. Marks Calculator
+# Create a Student class.
+# - Create a method accept(self, name, m1, m2, m3).
+# - Create a method total() to calculate total marks.
+# - Create a method percentage() to calculate percentage.
+
+
+class Student:
+    def acceptgive(self,name,m1,m2,m3):
+        self.name = name
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    def total(self):
+        self.totalmarks = self.m1+self.m2+self.m3
+        print("Student name:",self.name)
+        print("totalmarks:",self.totalmarks)
+
+    def percentage(self):
+        percen = (self.totalmarks / 3) * 100
+        print("total percenatage :",percen)
+
+
+
+h1 = Student()
+
+h1.acceptgive("dipak",97,87,76)
+h1.total()
+h1.percentage()

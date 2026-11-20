@@ -115,3 +115,20 @@
 
 
 
+# class Rectangle():
+#     def __init__(self,length,width):
+#         self.lenght = length
+#         self.width = width
+
+#     def area(self):
+#         area = self.lenght* self.width
+#         print(area)
+
+#     def perimeter(self):
+#         self.perimeter = 2 *(self.lenght + self.width)
+#         print("perimeter :",self.perimeter)
+
+
+# t = Rectangle(10,10)
+# t.area()
+# t.perimeter()

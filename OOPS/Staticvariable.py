@@ -1,18 +1,18 @@
 #static variable
 
 #5,updating
-class Test:
-    a=10  #static variable
-    def __init__(self):
-        self.a=20  #instance variable
+# class Test:
+#     a=10  #static variable
+#     def __init__(self):
+#         self.a=20  #instance variable
 
-t1=Test()
-Test.a=100
-print(Test.a)              #del Test.a   del t1.a
-print("_________________")
-t1.a=500
-print("Test.a:",Test.a)
-print("t1.a:",t1.a)
+# t1=Test()
+# Test.a=100
+# print(Test.a)              #del Test.a   del t1.a
+# print("_________________")
+# t1.a=500
+# print("Test.a:",Test.a)
+# print("t1.a:",t1.a)
 
 #5.Accessing static variable
 # class Test:
